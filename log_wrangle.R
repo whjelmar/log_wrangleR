@@ -24,7 +24,7 @@ Required_Packages = c("tidyverse", "RCurl", "ggplot2", "DT", "devtools", "bit64"
 Install_And_Load(Required_Packages)
 
 devtools::install_github("hrbrmstr/hrbraddins")
-
+devtools::install_github('cttobin/ggthemr')
 
 cleanme <- function(dataname) {
   
